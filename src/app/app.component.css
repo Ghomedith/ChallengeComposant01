@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+  }
+  
+  .block {
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    border: 6px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .block2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .block3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .block4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

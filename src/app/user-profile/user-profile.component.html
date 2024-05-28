@@ -1,0 +1,10 @@
+<p>user-profile works!</p>
+<div class="user-profile">
+    <img [src]="user.photo" alt="User" class="user-photo">
+    <input type="text" [(ngModel)]="user.quote" (input)="updateQuote($event)" placeholder="Enter a quote">
+    <p>Age: <span [hidden]="!showAge">{{ user.age }}</span></p>
+    <p>Name: {{ user.firstName }} {{ user.name }}</p>
+    <button (click)="toggleAge()">{{ showAge ? 'Hide Age' : 'Show Age' }}</button>
+  </div>
+  
+  
